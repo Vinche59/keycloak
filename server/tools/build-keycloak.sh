@@ -65,7 +65,7 @@ cp /opt/jboss/tools/databases/mariadb/module.xml .
 
 mkdir -p /opt/jboss/keycloak/modules/system/layers/base/com/mssql/jdbc/main
 cd /opt/jboss/keycloak/modules/system/layers/base/com/mssql/jdbc/main
-curl -L: http://central.maven.org/maven2/com/microsoft/sqlserver/mssql-jdbc/$JDBC_MSSQL_VERSION/mssql-jdbc-$JDBC_MSSQL_VERSION.jar > mssql-jdbc.jar
+curl -L http://central.maven.org/maven2/com/microsoft/sqlserver/mssql-jdbc/$JDBC_MSSQL_VERSION/mssql-jdbc-$JDBC_MSSQL_VERSION.jar > mssql-jdbc.jar
 cp /opt/jboss/tools/databases/mssql/module.xml .
 
 ######################
